@@ -1,0 +1,19 @@
+{
+  "name": "seeshells",
+  "version": "1.0.0",
+  "description": "A simple project for generating file shells.",
+  "main": "index.ts",
+  "author": "eldavojohn",
+  "license": "MIT",
+  "bin": "./index.ts",
+  "scripts": {
+    "start": "node index.ts",
+    "test": "jest",
+    "format": "yarn eslint . --fix"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.22",
+    "config": "^3.3.3",
+    "template-file": "^5.0.1"
+  }
+}

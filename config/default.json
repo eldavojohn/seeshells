@@ -1,0 +1,8 @@
+{
+  "ignorePatterns": ["node_modules*", ".d.ts", ".test."],
+  "fileTypes": ["tsx", "ts"],
+  "templateApplication" : {
+    ".*\\.tsx" : "templates/ClassComponent.tmpl",
+    ".*\\.ts" : "templates/Hook.tmpl"
+  }
+}
